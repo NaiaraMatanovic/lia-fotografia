@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* cinza-claro: fundo da página */
+  color: #222222; /* quase preto: texto */
+}
+
+header,
+footer {
+  padding: 1rem;
+  background-color: #1f3b4d; /* azul-petróleo: faixa do topo e do rodapé */
+  color: #ffffff; /* branco */
+}
+
+header a {
+  color: #ffffff; /* branco: nome "Lia Fotografia" no topo */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+main img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
